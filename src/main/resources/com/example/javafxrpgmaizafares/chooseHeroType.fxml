@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxrpgmaizafares.ChooseHeroTypeController">
+   <children>
+      <ImageView fitHeight="178.0" fitWidth="120.0" layoutX="42.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../sprites/heros/Warrior.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="124.0" layoutX="164.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../sprites/heros/Hunter.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="190.0" fitWidth="96.0" layoutX="335.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../sprites/heros/Mage.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="178.0" fitWidth="127.0" layoutX="451.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../sprites/heros/Healer.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="42.0" layoutY="283.0" mnemonicParsing="false" onAction="#onWarriorButtonClick" prefHeight="26.0" prefWidth="96.0" text="Warrior" />
+      <Button layoutX="185.0" layoutY="283.0" mnemonicParsing="false" onAction="#onHunterButtonClick" prefHeight="26.0" prefWidth="96.0" text="Hunter" />
+      <Button layoutX="323.0" layoutY="283.0" mnemonicParsing="false" onAction="#onMageButtonClick" prefHeight="26.0" prefWidth="96.0" text="Mage" />
+      <Button layoutX="465.0" layoutY="283.0" mnemonicParsing="false" onAction="#onHealerButtonClick" prefHeight="26.0" prefWidth="96.0" text="Healer" />
+   </children>
+</AnchorPane>

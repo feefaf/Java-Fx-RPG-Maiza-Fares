@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8cc45b0-b584-4679-b9b8-398966abddc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/ChooseHeroTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/ChooseNbrHeroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/CombatSceneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/ConfigureHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/GameOverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/ListHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/MarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/Combatant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/Healer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/Hunter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/SpellCaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/gentils/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/consumables/Consumable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/consumables/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/items/consumables/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/BersekerLion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/Ennemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/ItalienNotoire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/Pecheur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/rpg/mechants/SorcierMalefique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxrpgmaizafares/isep/utils/InputParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/ChooseNbrHero-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/CombatScene-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/ConfigureHero-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/GameOver-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/MarketController-View.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/chooseHeroType.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxrpgmaizafares/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/background/backgroundRPG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/BersekerLion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/Boss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/Dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/EnemyTomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/ItalienNotoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/Pecheur.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/enemies/SorcierMalefique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/heros/Healer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/heros/HeroTomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/heros/Hunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/heros/Mage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sprites/heros/Warrior.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IuoFHDIhU1YDHndxZMljBaOFbC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/maiza/OneDrive/Bureau/Cours/ISEP/A1/Java et algo/Codes Java/cours_introduction_JavaFx",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43678162"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.javafxrpgmaizafares" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\resources\sprites\enemies" />
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\java\com\example\javafxrpgmaizafares" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\resources" />
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\java\com\example\javafxrpgmaizafares\isep" />
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\resources\css" />
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\resources\com\example\javafxrpgmaizafares\background" />
+      <recent name="C:\Users\maiza\OneDrive\Bureau\Cours\ISEP\A1\Java et algo\Codes Java\Java-Fx-RPG-Maiza-Fares\src\main\resources\com\example\javafxrpgmaizafares" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.javafxrpgmaizafares" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.javafxrpgmaizafares.isep" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafxrpgmaizafares.HelloApplication" />
+      <module name="Java-Fx-RPG-Maiza-Fares" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javafxrpgmaizafares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.javafxrpgmaizafares.Main" />
+      <module name="Java-Fx-RPG-Maiza-Fares" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.javafxrpgmaizafares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8cc45b0-b584-4679-b9b8-398966abddc5" name="Changes" comment="" />
+      <created>1671040725755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671040725755</updated>
+      <workItem from="1671040727305" duration="10265000" />
+      <workItem from="1671055371832" duration="89726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

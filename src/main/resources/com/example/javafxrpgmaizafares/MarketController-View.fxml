@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="583.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxrpgmaizafares.MarketController">
+   <children>
+      <Label layoutX="29.0" layoutY="23.0" prefHeight="47.0" prefWidth="325.0" text="BIENVENUE AU MARKET" underline="true">
+         <font>
+            <Font name="Gill Sans MT" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="321.0" layoutY="23.0" prefHeight="47.0" prefWidth="256.0" text="Equipez vous Pour la manche suivante !" textFill="#7d2c2c">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="HeroImageSlot1" fitHeight="176.0" fitWidth="113.0" layoutX="29.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HeroSlotNameLabel1" layoutX="29.0" layoutY="85.0" prefHeight="30.0" prefWidth="81.0" text="Label" />
+      <ImageView fx:id="HeroImageSlot2" fitHeight="176.0" fitWidth="113.0" layoutX="29.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HeroSlotNameLabel2" layoutX="29.0" layoutY="325.0" prefHeight="30.0" prefWidth="81.0" text="Label" />
+      <ChoiceBox fx:id="WeaponChoiceBox1" layoutX="142.0" layoutY="115.0" prefHeight="26.0" prefWidth="144.0" />
+      <ChoiceBox fx:id="ArmorChoiceBox1" layoutX="142.0" layoutY="203.0" prefHeight="26.0" prefWidth="144.0" />
+      <Button fx:id="BuyWeaponButton1" layoutX="142.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#onWeaponChoiceClick1" prefHeight="18.0" prefWidth="122.0" text="Buy Weapon" />
+      <Button fx:id="BuyArmorButton1" layoutX="141.0" layoutY="244.0" mnemonicParsing="false" onMouseClicked="#onArmorChoiceClick1" prefHeight="18.0" prefWidth="122.0" text="Buy Armor" />
+      <ChoiceBox fx:id="WeaponChoiceBox2" layoutX="141.0" layoutY="355.0" prefHeight="26.0" prefWidth="144.0" />
+      <ChoiceBox fx:id="ArmorChoiceBox2" layoutX="141.0" layoutY="443.0" prefHeight="26.0" prefWidth="144.0" />
+      <Button fx:id="BuyWeaponButton2" layoutX="141.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#onWeaponChoiceClick2" prefHeight="18.0" prefWidth="122.0" text="Buy Weapon" />
+      <Button fx:id="BuyArmorButton2" layoutX="140.0" layoutY="484.0" mnemonicParsing="false" onMouseClicked="#onArmorChoiceClick2" prefHeight="18.0" prefWidth="122.0" text="Buy Armor" />
+      <ImageView fx:id="HeroImageSlot3" fitHeight="176.0" fitWidth="113.0" layoutX="355.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HeroSlotNameLabel3" layoutX="355.0" layoutY="83.0" prefHeight="30.0" prefWidth="81.0" text="Label" />
+      <ChoiceBox fx:id="WeaponChoiceBox3" layoutX="467.0" layoutY="113.0" prefHeight="26.0" prefWidth="144.0" />
+      <ChoiceBox fx:id="ArmorChoiceBox3" layoutX="467.0" layoutY="201.0" prefHeight="26.0" prefWidth="144.0" />
+      <Button fx:id="BuyWeaponButton3" layoutX="467.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#onWeaponChoiceClick3" prefHeight="18.0" prefWidth="122.0" text="Buy Weapon" />
+      <Button fx:id="BuyArmorButton3" layoutX="466.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#onArmorChoiceClick3" prefHeight="18.0" prefWidth="122.0" text="Buy Armor" />
+      <ImageView fx:id="HeroImageSlot4" fitHeight="176.0" fitWidth="113.0" layoutX="355.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="HeroSlotNameLabel4" layoutX="355.0" layoutY="325.0" prefHeight="30.0" prefWidth="81.0" text="Label" />
+      <ChoiceBox fx:id="WeaponChoiceBox4" layoutX="467.0" layoutY="355.0" prefHeight="26.0" prefWidth="144.0" />
+      <ChoiceBox fx:id="ArmorChoiceBox4" layoutX="467.0" layoutY="443.0" prefHeight="26.0" prefWidth="144.0" />
+      <Button fx:id="BuyWeaponButton4" layoutX="467.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#onWeaponChoiceClick4" prefHeight="18.0" prefWidth="122.0" text="Buy Weapon" />
+      <Button fx:id="BuyArmorButton4" layoutX="466.0" layoutY="484.0" mnemonicParsing="false" onMouseClicked="#onArmorChoiceClick4" prefHeight="18.0" prefWidth="122.0" text="Buy Armor" />
+      <Button alignment="CENTER" layoutX="687.0" layoutY="102.0" mnemonicParsing="false" onMouseClicked="#BuyLembas" prefHeight="78.0" prefWidth="94.0" text="Acheter lembas - 30 Gold" textAlignment="CENTER" wrapText="true" />
+      <Button alignment="CENTER" layoutX="687.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#BuyBonbon" prefHeight="78.0" prefWidth="94.0" text="Acheter Bonbon - 60 Gold" textAlignment="CENTER" wrapText="true" />
+      <Button alignment="CENTER" layoutX="687.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#BuyMonsterCan" prefHeight="78.0" prefWidth="94.0" text="Acheter Canette Monster - 40 Gold" textAlignment="CENTER" wrapText="true" />
+      <Button alignment="CENTER" layoutX="687.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#BuyWhiteSpirit" prefHeight="78.0" prefWidth="94.0" text="Acheter White Spirit - 60 Gold" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="GoldValue" layoutX="646.0" layoutY="537.0" prefHeight="47.0" prefWidth="212.0" text="GOLD">
+         <font>
+            <Font name="Franklin Gothic Medium" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="549.0" mnemonicParsing="false" onMouseClicked="#onEndMarket" prefHeight="30.0" prefWidth="194.0" text="FIN DES ACHATS" AnchorPane.bottomAnchor="4.800000000000047" />
+      <Label fx:id="BuyPrompter" alignment="TOP_LEFT" layoutX="646.0" layoutY="11.0" prefHeight="71.0" prefWidth="194.0" text="Historiques des achats" wrapText="true">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

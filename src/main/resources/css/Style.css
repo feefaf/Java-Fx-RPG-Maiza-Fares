@@ -1,0 +1,6 @@
+.root{
+    -fx-background-image: url('background/bgRPG.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
